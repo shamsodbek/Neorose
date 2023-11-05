@@ -860,7 +860,7 @@ border-radius: 11px;
     justify-content: center;
     align-items: center;
     width: 300px;
-    height: 80vh;
+    height: auto;
     
 }
 .menu_links{
@@ -869,6 +869,8 @@ border-radius: 11px;
     align-items: center;
     justify-content: center;
     gap: 30px;
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
 .menu_backet.active{
     transform: translateX(0);
