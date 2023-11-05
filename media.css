@@ -6,7 +6,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        overflow: hidden;
+        
     }
 
     .big_title {
@@ -421,7 +421,7 @@
 }
 @media (max-width:550px){
      body{
-        overflow-x: hidden;
+     
         width: 100%;
             background: linear-gradient(180deg, #ED2727 0%, rgba(23, 158, 255, 0.00) 100%), linear-gradient(180deg, rgba(0, 168, 221, 0.45) 0%, rgba(185, 0, 201, 0.00) 100%), linear-gradient(180deg, #000 0%, rgba(3, 13, 38, 0.53) 100%);
                 background-blend-mode: multiply, normal, normal;
@@ -539,8 +539,28 @@
            .footer{
             display: none;
            }
+           .sharik_terminal_2{
+            display: none;
+           }
+           .img_terminal img{
+            width: 400px;
+           }
+           .menu_backet a{
+        color: black;
+        font-size: 25px;
+           }
+           .menu_backet a:hover{
+            text-decoration: underline;
+            text-shadow: 0px 0px 5px 0px rgba(252, 181, 0, 0.71);
+                color: rgba(252, 181, 0, 0.71);
+           }
 }
-@media (max-width:450px){
+@media (max-width:480px){
+    .container{
+        width: 400px;
+        display: block; 
+        margin: 0 auto;
+    }
     .product_box{
             display: flex;
                 flex-direction: column;
@@ -551,4 +571,38 @@
         flex-direction: column;
         justify-content: center;
     }
+    .tetminal_card_2 p{
+        width: 200px;
+        text-align: center;
+            display: block;
+                margin: 0 auto;
+    }
+    .tetminal_card_3 p{
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    }
+    .terminal_title{
+        width: 250px;
+        font-size: 18px;
+    }
+          .img_terminal img {
+              width: 350px;
+          }
+     .menu_backet{
+        display: block;
+     }
+     .nav_infoo{
+      width: 300px;
+     }
+    .karzina_img{
+        display: none;
+    }
+    .img_1{
+        width: 350px;
+    }
+    
+
+    
 }
